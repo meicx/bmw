@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script>
+		document.documentElement.style.fontSize = (document.documentElement.clientWidth * 100 /750)+"px";
+		</script>
+		<link rel="stylesheet" type="text/css" href="assets/css/index.css?test6=1" />
+		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+		<script src="assets/js/zepto.min.js"></script>
+		<script src="assets/js/fastclick.js"></script>
+		<script src="assets/js/zepto.plugin.js"></script>
+		<script src='assets/js/unlock.js'></script>
+		<script src='assets/js/load.js'></script>
+		<script src='assets/js/zepto.fx.js'></script>
+		
+	</head>
+	<body>
+		<div class="main">
+			<div class="main-index">
+				<img class="loadPic picRotateAnimation" src="assets/img/0.png"/>
+				<div class="btnLoad">正在加载...<span id="percent" style="display: none">0%</span></div>
+				<div class="btnStart">点击开始</div>
+			</div>
+			<video id="myVideo" src="assets/media/myVideo.mp4" type="video/mp4"
+			  preload="auto"
+			  webkit-playsinline="true"
+			  playsinline="true"
+			  x-webkit-airplay="allow"
+			  x5-video-player-type="h5"
+			  x5-video-player-fullscreen="true"
+			  x5-video-orientation="portraint" ></video>
+			<audio  controls="controls"  src="assets/media/slient.mp3" id="myAudio" preload="auto" ></audio>
+			<audio  controls="controls"  src="assets/media/phonecall.mp3" id="myAudioNext" preload="auto" ></audio>
+			<div class="slide bar"></div>
+			<div class="selectPhoto">
+				<div class="selectIcon">
+					<img class="icon shake" src="assets/img/photoIcon1.png"/>
+					<img class="icon shake" src="assets/img/photoIcon2.png"/>
+					<img class="icon shake" src="assets/img/photoIcon3.png"/>
+					<img class="icon shake" src="assets/img/photoIcon4.png"/>
+				</div>
+				<div class="selectText"><span class="iconText">请选择王小锤此时的心情</span></div>
+			</div>
+			<div class="phoneCall">
+				<div class="anserBtn"></div>
+			</div>
+			<div class="share-index">
+			 	<img class="shareImg shareForward" src="assets/img/share1.png" />
+			 	<img class="shareImg shareGoto" src="assets/img/share2.png" />
+			 	<img class="shareImg shareReplay" src="assets/img/share3.png" />
+			</div>
+			<div class="goshare_wrap">
+			    <div class="go_share_text">
+			        <img src="assets/img/share_img.png" alt="">
+			    </div>
+			</div>
+		</div>
+	</body>
+	<script src="assets/js/weixin_share.js?tt9=7"></script>
+    <script src="assets/js/index.js?test8=1"></script>
+</html>
